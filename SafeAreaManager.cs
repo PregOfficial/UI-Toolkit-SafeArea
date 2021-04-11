@@ -10,6 +10,8 @@ public class SafeAreaManager : VisualElement
 
     public SafeAreaManager()
     {
+        style.flexGrow = 1;
+        style.flexShrink = 1;
         RegisterCallback<GeometryChangedEvent>(LayoutChanged);
     }
 
