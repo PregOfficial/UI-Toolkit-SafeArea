@@ -1,9 +1,9 @@
 # Safe-Area Manager
 
-1. Use SafeAreaManager Control in the UI Builder
+1. Use the SafeAreaManager Control in the UI Builder
 
 ![](imgs/ui-builder.png)
 
-2. Everything is now aligned in the Safe-Area
+2. Now everything is aligned inside the safe area
 
 ![](imgs/simulator.png)
