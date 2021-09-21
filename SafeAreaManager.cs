@@ -26,10 +26,10 @@ public class SafeAreaManager : VisualElement
             var rightBottom = RuntimePanelUtils.ScreenToPanel(panel,
                 new Vector2(Screen.width - safeArea.xMax, safeArea.yMin));
         
-            style.paddingLeft = leftTop.x;
-            style.paddingTop = leftTop.y;
-            style.paddingRight = rightBottom.x;
-            style.paddingBottom = rightBottom.y;
+            style.marginLeft = leftTop.x;
+            style.marginTop = leftTop.y;
+            style.marginRight = rightBottom.x;
+            style.marginBottom = rightBottom.y;
         }
         catch (InvalidCastException) {}
     } 
